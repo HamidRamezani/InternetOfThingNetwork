@@ -11,8 +11,8 @@ public:
 
 public: // Only for logging purposes
 	IdType getId(void);
-	void   setPosition    (CoordinateType* position);
-	void   getAcceleration(CoordinateType* acceleration);
+	void setPosition(CoordinateType* position);
+	void getPosition(CoordinateType* position);
 
 private:
 	IdType id;

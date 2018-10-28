@@ -38,10 +38,10 @@ void NodeMobileCore::setAcceleration(CoordinateType * acceleration)
 	zAcceleration = *acceleration++;
 }
 
-void NodeMobileCore::getPosition(CoordinateType* position) {
-	*position++ = xPosition;
-	*position++ = yPosition;
-	*position++ = zPosition;
+void NodeMobileCore::getAcceleration(CoordinateType* acceleration) {
+	*acceleration++ = xAcceleration;
+	*acceleration++ = yAcceleration;
+	*acceleration++ = zAcceleration;
 }
 
 void NodeMobileCore::getVelocity(CoordinateType* velocity) {

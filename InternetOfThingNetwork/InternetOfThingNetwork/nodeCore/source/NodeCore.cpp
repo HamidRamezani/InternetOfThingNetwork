@@ -29,8 +29,8 @@ void NodeCore::setPosition(CoordinateType * position)
 	zPosition = *position++;
 }
 
-void NodeCore::getAcceleration(CoordinateType* acceleration){
-	*acceleration++ = xAcceleration;
-	*acceleration++ = yAcceleration;
-	*acceleration++ = zAcceleration;
+void NodeCore::getPosition(CoordinateType* position) {
+	*position++ = xPosition;
+	*position++ = yPosition;
+	*position++ = zPosition;
 }

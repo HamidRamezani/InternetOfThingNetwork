@@ -17,9 +17,9 @@ public:
 	 CoordinateType getCurrentAccelaration();
 
 	 void setVelocity(CoordinateType* velocity);
-	 void setAcceleration(CoordinateType* acceleration);
-	 void getPosition(CoordinateType* position);
 	 void getVelocity(CoordinateType* velocity);
+	 void setAcceleration(CoordinateType* acceleration);
+	 void getAcceleration(CoordinateType* acceleration);
 
 private:
 	void controlMaxSpeed(void);
