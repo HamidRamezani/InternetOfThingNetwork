@@ -72,7 +72,7 @@ void NodeMobileCore::controlMaxAccelaration(void)
 	}
 }
 
-void NodeMobileCore::kinematicStep(TimeType t)
+void NodeMobileCore::stepKinematic(TimeType t)
 {
 	// update positions
 	this->xPosition += this->xVelocity * (CoordinateType)t;
@@ -91,7 +91,7 @@ void NodeMobileCore::kinematicStep(TimeType t)
 /*
 randomWalkStep moves the node at random direction with distance t*speed
 */
-void NodeMobileCore::randomWalkStep(TimeType t, CoordinateType speed)
+void NodeMobileCore::stepRandomWalk(TimeType t, CoordinateType speed)
 {
 
 	CoordinateType randX = (CoordinateType)rand() / (CoordinateType)RAND_MAX;

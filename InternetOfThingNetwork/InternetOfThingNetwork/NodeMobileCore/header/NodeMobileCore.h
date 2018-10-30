@@ -11,8 +11,8 @@ public:
 	  NodeMobileCore(IdType id, CoordinateType maxSpeed, CoordinateType maxAccelaration);
 	  ~NodeMobileCore();
 
-	 void kinematicStep(TimeType t) ;
-	 void randomWalkStep(TimeType t, CoordinateType speed);
+	 void stepKinematic(TimeType t) ;
+	 void stepRandomWalk(TimeType t, CoordinateType speed);
 	 CoordinateType getCurrentSpeed();	 
 	 CoordinateType getCurrentAccelaration();
 

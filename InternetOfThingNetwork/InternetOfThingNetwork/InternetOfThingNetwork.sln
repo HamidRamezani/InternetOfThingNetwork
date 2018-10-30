@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeCoreTest", "NodeCoreTes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeMobileCore", "NodeMobileCore\NodeMobileCore.vcxproj", "{6A2ED99F-ED32-4D69-B6F9-67C49E6D374E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeMobileCoreTest", "NodeMobileCoreTest\NodeMobileCoreTest.vcxproj", "{BFABF16E-635E-47F0-B678-A5A9726E5B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{6A2ED99F-ED32-4D69-B6F9-67C49E6D374E}.Release|x64.Build.0 = Release|x64
 		{6A2ED99F-ED32-4D69-B6F9-67C49E6D374E}.Release|x86.ActiveCfg = Release|Win32
 		{6A2ED99F-ED32-4D69-B6F9-67C49E6D374E}.Release|x86.Build.0 = Release|Win32
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Debug|x64.ActiveCfg = Debug|x64
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Debug|x64.Build.0 = Debug|x64
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Debug|x86.Build.0 = Debug|Win32
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Release|x64.ActiveCfg = Release|x64
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Release|x64.Build.0 = Release|x64
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Release|x86.ActiveCfg = Release|Win32
+		{BFABF16E-635E-47F0-B678-A5A9726E5B5A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
