@@ -26,7 +26,7 @@ private:
 	void controlMaxAccelaration(void);
 
 private:
-	CoordinateType maxSpeed        = NODE_MAX_POSSIBLE_SPEED_M_PER_SECOND;
-	CoordinateType maxAccelaration = NODE_MAX_POSSIBLE_ACCELARATION_M_PER_SECOND_SECOND;
+	CoordinateType maxSpeed        = (CoordinateType)NODE_MAX_POSSIBLE_SPEED_M_PER_SECOND;
+	CoordinateType maxAccelaration = (CoordinateType)NODE_MAX_POSSIBLE_ACCELARATION_M_PER_SECOND_SECOND;
 };
 
