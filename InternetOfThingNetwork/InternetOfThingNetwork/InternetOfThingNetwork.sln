@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeMobileCore", "GroupNode
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeMobileCoreTest", "GroupNode\NodeMobileCoreTest\NodeMobileCoreTest.vcxproj", "{BFABF16E-635E-47F0-B678-A5A9726E5B5A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GroupUtilities", "GroupUtilities", "{B3C0FB8A-ABF3-4BCB-B287-D487DC1DFA23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
